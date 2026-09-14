@@ -1,0 +1,174 @@
+[0m19:54:26.936453 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000275FBB0F130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000275FE297F10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000275FE297D30>]}
+
+
+============================== 19:54:26.946808 | bbb7c776-7682-4456-86ac-b8b291dcf0dd ==============================
+[0m19:54:26.946808 [info ] [MainThread]: Running with dbt=1.12.0
+[0m19:54:26.950639 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'maximum_seed_size_mib': '1', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\EUG\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'hints_enabled': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'invocation_command': 'dbt init jcars_analytics', 'log_path': 'logs'}
+[0m19:54:27.115767 [info ] [MainThread]: A project called jcars_analytics already exists here.
+[0m19:54:27.139342 [debug] [MainThread]: Command `dbt init` succeeded at 19:54:27.139342 after 0.54 seconds
+[0m19:54:27.142373 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000275FBB0F130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000275FE296D40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000275FE297550>]}
+[0m19:54:27.143369 [debug] [MainThread]: Flushing usage events
+[0m19:54:29.044828 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:00:13.645311 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A096E93160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A099617F40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A099617D60>]}
+
+
+============================== 20:00:13.652932 | 96199240-a087-4a7e-ad63-b35931025bff ==============================
+[0m20:00:13.652932 [info ] [MainThread]: Running with dbt=1.12.0
+[0m20:00:13.653896 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'maximum_seed_size_mib': '1', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\EUG\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'hints_enabled': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'invocation_command': 'dbt init jcars_analytics', 'log_path': 'logs'}
+[0m20:00:13.710728 [debug] [MainThread]: Starter project path: C:\Users\EUG\AppData\Local\Programs\Python\Python310\lib\site-packages\dbt\include\starter_project
+[0m20:00:13.853059 [info ] [MainThread]: Setting up your profile.
+[0m20:02:36.974819 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m20:02:36.976849 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m20:02:36.977809 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m20:05:06.930626 [info ] [MainThread]: Profile jcars_analytics written to C:\Users\EUG\.dbt\profiles.yml using target's profile_template.yml and your supplied values.
+[0m20:05:06.942473 [info ] [MainThread]: Running dbt debug to validate the project...
+[0m20:05:06.944468 [info ] [MainThread]: dbt version: 1.12.0
+[0m20:05:06.945467 [info ] [MainThread]: python version: 3.10.0
+[0m20:05:06.946463 [info ] [MainThread]: python path: C:\Users\EUG\AppData\Local\Programs\Python\Python310\python.exe
+[0m20:05:06.947975 [info ] [MainThread]: os info: Windows-10-10.0.22631-SP0
+[0m20:05:07.132800 [info ] [MainThread]: Using profiles dir at C:\Users\EUG\.dbt
+[0m20:05:07.133797 [info ] [MainThread]: Using profiles.yml file at C:\Users\EUG\.dbt\profiles.yml
+[0m20:05:07.134793 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\EUG\Desktop\MyProject\jcars_dbt_project\jcars_analytics\dbt_project.yml
+[0m20:05:07.136788 [info ] [MainThread]: adapter type: snowflake
+[0m20:05:07.137787 [info ] [MainThread]: adapter version: 1.12.0
+[0m20:05:07.400067 [info ] [MainThread]: Configuration:
+[0m20:05:07.401067 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m20:05:07.402068 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m20:05:07.403069 [info ] [MainThread]: Required dependencies:
+[0m20:05:07.404063 [debug] [MainThread]: Executing "git --help"
+[0m20:05:07.475764 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   history    EXPERIMENTAL: Rewrite history\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Set `HEAD` or the index to a known state\n   switch     Switch branches\n   tag        Create, list, delete or verify tags\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m20:05:07.476762 [debug] [MainThread]: STDERR: "b''"
+[0m20:05:07.477759 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m20:05:07.478265 [info ] [MainThread]: Connection:
+[0m20:05:07.479273 [info ] [MainThread]:   account: VFDPUOL-ZI20109
+[0m20:05:07.480297 [info ] [MainThread]:   user: jcars_user
+[0m20:05:07.481738 [info ] [MainThread]:   database: jcars_analytics
+[0m20:05:07.481738 [info ] [MainThread]:   warehouse: jcars_wh
+[0m20:05:07.482735 [info ] [MainThread]:   role: jcars_role
+[0m20:05:07.483733 [info ] [MainThread]:   schema: public
+[0m20:05:07.484730 [info ] [MainThread]:   authenticator: None
+[0m20:05:07.485729 [info ] [MainThread]:   oauth_client_id: None
+[0m20:05:07.486725 [info ] [MainThread]:   query_tag: None
+[0m20:05:07.487723 [info ] [MainThread]:   client_session_keep_alive: False
+[0m20:05:07.488802 [info ] [MainThread]:   host: None
+[0m20:05:07.489308 [info ] [MainThread]:   port: None
+[0m20:05:07.491356 [info ] [MainThread]:   proxy_host: None
+[0m20:05:07.492865 [info ] [MainThread]:   proxy_port: None
+[0m20:05:07.493888 [info ] [MainThread]:   protocol: None
+[0m20:05:07.495884 [info ] [MainThread]:   connect_retries: 1
+[0m20:05:07.502939 [info ] [MainThread]:   connect_timeout: None
+[0m20:05:07.504935 [info ] [MainThread]:   retry_on_database_errors: False
+[0m20:05:07.506929 [info ] [MainThread]:   retry_all: False
+[0m20:05:07.512463 [info ] [MainThread]:   insecure_mode: False
+[0m20:05:07.521520 [info ] [MainThread]:   reuse_connections: True
+[0m20:05:07.559647 [info ] [MainThread]:   s3_stage_vpce_dns_name: None
+[0m20:05:07.601386 [info ] [MainThread]:   workload_identity_provider: None
+[0m20:05:07.621678 [info ] [MainThread]:   workload_identity_entra_resource: None
+[0m20:05:07.624678 [info ] [MainThread]:   platform_detection_timeout_seconds: 0.0
+[0m20:05:07.629688 [info ] [MainThread]: Registered adapter: snowflake=1.12.0
+[0m20:05:08.549703 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m20:05:08.554209 [debug] [MainThread]: Using snowflake connection "debug"
+[0m20:05:08.554209 [debug] [MainThread]: On debug: select 1 as id
+[0m20:05:08.555213 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m20:05:14.643299 [debug] [MainThread]: SQL status: SUCCESS 1 in 6.089 seconds
+[0m20:05:14.646293 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m20:05:14.648831 [info ] [MainThread]: [32mAll checks passed![0m
+[0m20:05:14.649377 [info ] [MainThread]: Your new dbt project "jcars_analytics" was created!
+Initialized new project in C:\Users\EUG\Desktop\MyProject\jcars_dbt_project\jcars_analytics\jcars_analytics
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m20:05:14.651642 [debug] [MainThread]: Command `dbt init` succeeded at 20:05:14.650446 after 301.21 seconds
+[0m20:05:14.651642 [debug] [MainThread]: Connection 'debug' was left open.
+[0m20:05:14.652638 [debug] [MainThread]: On debug: Close
+[0m20:05:15.420451 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A096E93160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A0A269B6D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A0A27CE080>]}
+[0m20:05:15.421450 [debug] [MainThread]: Flushing usage events
+[0m20:05:16.667994 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:51:18.408008 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020DE90FB190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020DEB8D5150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020DEB8D4F70>]}
+
+
+============================== 17:51:18.423430 | 272cb79a-ebcb-4f2b-9ded-ce52f5948e98 ==============================
+[0m17:51:18.423430 [info ] [MainThread]: Running with dbt=1.12.0
+[0m17:51:18.425915 [debug] [MainThread]: running dbt with arguments {'maximum_seed_size_mib': '1', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'static_parser': 'True', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\EUG\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'hints_enabled': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'invocation_command': 'dbt run --select jcars_stg', 'log_path': 'logs'}
+[0m17:51:18.427917 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\EUG\Desktop\MyProject\jcars_dbt_project\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m17:51:18.430255 [debug] [MainThread]: Command `dbt run` failed at 17:51:18.430255 after 1.16 seconds
+[0m17:51:18.432298 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020DE90FB190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020DEB8D4F70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020DEB8D5210>]}
+[0m17:51:18.433391 [debug] [MainThread]: Flushing usage events
+[0m17:51:20.433992 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m08:13:28.887049 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023A19C8F190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023A1B495150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023A1B494F70>]}
+
+
+============================== 08:13:28.898708 | 008bb2dd-035b-4499-ac3b-36e70e0dc547 ==============================
+[0m08:13:28.898708 [info ] [MainThread]: Running with dbt=1.12.0
+[0m08:13:28.900930 [debug] [MainThread]: running dbt with arguments {'maximum_seed_size_mib': '1', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\EUG\\.dbt', 'indirect_selection': 'eager', 'hints_enabled': 'True', 'invocation_command': 'dbt run --select jcars_stg', 'use_experimental_parser': 'False', 'use_colors': 'True', 'log_path': 'logs'}
+[0m08:13:28.902438 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\EUG\Desktop\MyProject\jcars_dbt_project\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m08:13:28.904433 [debug] [MainThread]: Command `dbt run` failed at 08:13:28.904433 after 0.27 seconds
+[0m08:13:28.906429 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023A19C8F190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023A1B494F70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023A1B495210>]}
+[0m08:13:28.907427 [debug] [MainThread]: Flushing usage events
+[0m08:13:30.893185 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m22:38:50.691151 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000246F5EAF130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000246F7542D70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000246F7543070>]}
+
+
+============================== 22:38:50.732422 | 033bae29-79bb-4b6f-8fd9-07619c11b78c ==============================
+[0m22:38:50.732422 [info ] [MainThread]: Running with dbt=1.12.0
+[0m22:38:50.735988 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'maximum_seed_size_mib': '1', 'target_path': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\EUG\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt run --select jcars_stg', 'hints_enabled': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'use_colors': 'True', 'log_path': 'logs'}
+[0m22:38:50.739815 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\EUG\Desktop\MyProject\jcars_dbt_project\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m22:38:50.745857 [debug] [MainThread]: Command `dbt run` failed at 22:38:50.744360 after 0.24 seconds
+[0m22:38:50.751373 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000246F5EAF130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000246F7542EC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000246F7542D70>]}
+[0m22:38:50.754376 [debug] [MainThread]: Flushing usage events
+[0m22:38:52.303156 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:49:15.099496 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E675803130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E677E62D70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E677E63070>]}
+
+
+============================== 18:49:15.109470 | df166f02-09bb-43a7-8541-a952267e8701 ==============================
+[0m18:49:15.109470 [info ] [MainThread]: Running with dbt=1.12.0
+[0m18:49:15.111466 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'maximum_seed_size_mib': '1', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'static_parser': 'True', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\EUG\\.dbt', 'invocation_command': 'dbt run --select jcars_stg2', 'hints_enabled': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'log_path': 'logs'}
+[0m18:49:15.112462 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\EUG\Desktop\MyProject\jcars_dbt_project\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m18:49:15.115454 [debug] [MainThread]: Command `dbt run` failed at 18:49:15.114456 after 0.23 seconds
+[0m18:49:15.116451 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E675803130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E677E62EC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E677E62D70>]}
+[0m18:49:15.117448 [debug] [MainThread]: Flushing usage events
+[0m18:49:16.358061 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:49:53.344993 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FA85E2F100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FA878C26E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FA88493370>]}
+
+
+============================== 18:49:53.351974 | 117447b5-e639-4617-904a-931e090cee01 ==============================
+[0m18:49:53.351974 [info ] [MainThread]: Running with dbt=1.12.0
+[0m18:49:53.353484 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'maximum_seed_size_mib': '1', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\EUG\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt run --select jcars_stg2', 'hints_enabled': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'log_path': 'logs'}
+[0m18:49:53.354480 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\EUG\Desktop\MyProject\jcars_dbt_project\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m18:49:53.356475 [debug] [MainThread]: Command `dbt run` failed at 18:49:53.356475 after 0.22 seconds
+[0m18:49:53.357474 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FA85E2F100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FA88493370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FA88493130>]}
+[0m18:49:53.358470 [debug] [MainThread]: Flushing usage events
+[0m18:49:55.577910 [debug] [MainThread]: An error was encountered while trying to flush usage events
